@@ -3,6 +3,7 @@ import Sobre from "./components/Sobre"
 import Habilidades from "./components/Habilidades";
 import HeroSection from "./components/HeroSection";
 import ProjetoLista from "./components/ProjetoLista";
+import Footer from "./styles/Footer"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Sobre></Sobre>
       <Habilidades></Habilidades>
       <ProjetoLista></ProjetoLista>
+      <Footer></Footer>
     </div>
   );
 }
