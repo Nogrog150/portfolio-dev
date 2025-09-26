@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <div>
       <header className="relative flex justify-between items-center p-5 bg-[#1F2937] text-[#F9FAFB] rounded-xl">
-        <h2 className="text-2xl font-bold">DevMauro</h2>
+        <h2 className="text-2xl font-bold hover:text-purple-600 cursor-pointer">DevMauro</h2>
         
         <nav>
           <button
@@ -32,11 +32,11 @@ export default function Navbar() {
               lg:bg-transparent lg:translate-x-0 lg:gap-10
             `}
           >
-            <li><a href="#inicio" onClick={() => setMenuOpen(false)}>Inicio</a></li>
-            <li><a href="#sobre" onClick={() => setMenuOpen(false)}>Sobre</a></li>
-            <li><a href="#habilidades" onClick={() => setMenuOpen(false)}>Habilidades</a></li>
-            <li><a href="#projetos" onClick={() => setMenuOpen(false)}>Projetos</a></li>
-            <li><a href="#contato" onClick={() => setMenuOpen(false)}>Contato</a></li>
+            <li className="hover:text-purple-600"><a href="#inicio" onClick={() => setMenuOpen(false)}>Inicio</a></li>
+            <li className="hover:text-purple-600"><a href="#sobre" onClick={() => setMenuOpen(false)}>Sobre</a></li>
+            <li className="hover:text-purple-600"><a href="#habilidades" onClick={() => setMenuOpen(false)}>Habilidades</a></li>
+            <li className="hover:text-purple-600"><a href="#projetos" onClick={() => setMenuOpen(false)}>Projetos</a></li>
+            <li className="hover:text-purple-600"><a href="#contato" onClick={() => setMenuOpen(false)}>Contato</a></li>
           </ul>
         </nav>
       </header>
